@@ -14,6 +14,7 @@
     color: rgb(51, 49, 49);
     font-size: 30px;
     padding: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .main-container .container-nav{
     width: 20%;
@@ -22,12 +23,91 @@
 .main-container .container-overview{
     width: 80%;
     border: 2px solid green;
+    background-color: rgb(245, 241, 236);
 }
+
+                                        /*========== first row start here  =========== */
 .main-container .container-overview .first-row{
     width: 100%;
     border:  2px solid orange;
-}
-.chirantan{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 20px;
+    padding: 10px;
+}
+.first-row h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.first-row h5{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-family: "Nunito", sans-serif;
+}
+.main-container .container-overview .first-row .current-balance{
+    background-color: black;
+    border: 2px solid red;
+    width: 30%;
+    border-radius: 8px;
+    color: rgb(234, 224, 224);
+    padding: 20px;
+}
+.main-container .container-overview .first-row .income{
+    background-color: white;
+    border: 2px solid red;
+    width: 30%;
+    border-radius: 8px;
+    padding: 20px;
+}
+.main-container .container-overview .first-row .expenses{
+    background-color: white;
+    border: 2px solid red;
+    width: 30%;
+    border-radius: 8px;
+    padding: 20px;
+}
+                                        /*========== first row end here  =========== */
+
+                                        /*========== second row container here  =========== */
+.main-container .container-overview .second-row-container{
+    width: 100%;
+    border: 2px solid blue;
+    display: flex;
+}
+
+                                        /* left part start  */
+.main-container .container-overview .second-row-container .left-part{
+ width: 60%;
+ border: rgb(188, 26, 26) solid 2px ;
+ padding: 10px;
+}
+.main-container .container-overview .second-row-container .left-part .pots{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main-container .container-overview .second-row-container .left-part .pots-overview{
+   display: flex;
+   gap: 5px;
+}
+.main-container .container-overview .second-row-container .left-part .pots-overview .pots-left{
+  width: 50%;
+  border: 2px solid green;
+  background-color: blanchedalmond;
+  display: flex;
+  gap: 5px;
+}
+.main-container .container-overview .second-row-container .left-part .pots-overview .pots-right{
+ width: 50%;
+ border: 2px solid green;
+}
+.main-container .container-overview .second-row-container .right-part{
+ width: 40%;
+ border: rgb(215, 26, 26) solid 2px ;
 }
