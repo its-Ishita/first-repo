@@ -79,11 +79,12 @@
     display: flex;
 }
 
-                                        /* left part start  */
+                                                         /* left pots part start  */
 .main-container .container-overview .second-row-container .left-part{
  width: 60%;
  border: rgb(188, 26, 26) solid 2px ;
  padding: 10px;
+ height: 15rem;
 }
 .main-container .container-overview .second-row-container .left-part .pots{
     width: 100%;
@@ -92,22 +93,157 @@
     justify-content: space-between;
     padding: 10px;
 }
+.main-container .container-overview .second-row-container .left-part .pots .pots-heading{
+       font-family: "IBM Plex Sans", sans-serif;
+}
+.main-container .container-overview .second-row-container .left-part .pots .see-details{
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
 .main-container .container-overview .second-row-container .left-part .pots-overview{
    display: flex;
    gap: 5px;
+   margin: 10px;
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview .pots-left{
   width: 50%;
   border: 2px solid green;
   background-color: blanchedalmond;
+  border-radius: 5px;
   display: flex;
-  gap: 5px;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  padding: 20px;
+}
+.pots-left .icon{
+    font-size: 5rem;
+}
+.pots-left h1{
+    font-size: 3rem;
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview .pots-right{
  width: 50%;
  border: 2px solid green;
+ border-radius: 6px;
+ box-shadow: 2px 2px 2px rgb(226, 215, 215);
 }
+.left-part .pots-overview .pots-right .upper{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-part .pots-overview .pots-right .upper .box-1{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+.left-part .pots-overview .pots-right .upper .box-1 .box-1-text h4{
+    margin: 3px;
+}
+.left-part .pots-overview .pots-right .upper .box-1 .border-1{
+    border: 3px solid rgb(4, 130, 134);
+    border-radius: 2px;
+}
+.left-part .pots-overview .pots-right .upper .box-2{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+.left-part .pots-overview .pots-right .upper .box-2 .border-2{
+    border: 3px solid grey;
+    border-radius: 2px;
+}
+.left-part .pots-overview .pots-right .upper .box-2 .box-2-text h4{
+    margin: 3px;
+}
+.left-part .pots-overview .pots-right .lower{
+    padding: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-part .pots-overview .pots-right .lower .box-3{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+.left-part .pots-overview .pots-right .lower .box-3 .border-3{
+    border: 3px solid rgb(16, 211, 236);
+    border-radius: 2px;
+}
+.left-part .pots-overview .pots-right .lower .box-3 .box-3-text h4{
+    margin: 3px;
+}
+.left-part .pots-overview .pots-right .lower .box-4{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+.left-part .pots-overview .pots-right .lower .box-4 .border-4{
+    border: 3px solid rgb(235, 207, 130);
+    border-radius: 2px;
+}
+.left-part .pots-overview .pots-right .lower .box-3 .box-3-text h4{
+    margin: 3px;
+}
+                                                                 /* left pots part end  */
+
+                                                                  /* right budgets part start  */
 .main-container .container-overview .second-row-container .right-part{
  width: 40%;
- border: rgb(215, 26, 26) solid 2px ;
+ /* border: rgb(215, 26, 26) solid 2px ; */
+ padding: 10px;
 }
+.main-container .container-overview .second-row-container .right-part .budgets{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main-container .container-overview .second-row-container-part .budgets .budgets-heading{
+       font-family: "IBM Plex Sans", sans-serif;
+}
+.main-container .container-overview .second-row-container .right-part .budgets .see-details{
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.main-container .container-overview .second-row-container .right-part .graph-side{
+    display: flex;
+    gap: 4px;
+    width: 100%;
+}
+.main-container .container-overview .second-row-container .right-part .graph{
+  width: 60%;
+  height: 210px;
+  border: 2px solid black;
+}
+.main-container .container-overview .second-row-container .right-part .slidebar{
+    width: 40%;
+    border: 2px solid ;
+}
+.right-part .slidebar .slidebar-1{
+    border: 2px solid red;
+    display: flex;
+    gap: 16px;
+    padding:15px;
+}
+ .right-part .slidebar .slidebar-1 .border-5{
+    border: 3px solid rgb(16, 211, 236);
+    border-radius: 2px;
+}
+ .right-part .slidebar .slidebar-1 .border h4{
+    margin: 5px;
+}
+.right-part .slidebar .slidebar-1 .border-6{
+    border: 3px solid rgb(240, 224, 133);
+    border-radius: 2px;
+}
+.right-part .slidebar .slidebar-1 .border-7{
+    border: 3px solid rgb(82, 89, 90);
+    border-radius: 2px;
+}
+                                                               /* right budgets part end  */
+
+                                                               /* left transaction part start  */
+
+                    
