@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ section.main-container{
+    width: 100%;
+    border:  2px solid red;
+    /* height: 100vh; */
+    display: flex;
+}
+.main-container .headline{
+    font-weight: 900;
+    color: rgb(51, 49, 49);
+    font-size: 30px;
+    padding: 10px;
+}
+.main-container .container-nav{
+    width: 20%;
+    border: 2px solid black;
+}
+.main-container .container-overview{
+    width: 80%;
+    border: 2px solid green;
+}
+.main-container .container-overview .first-row{
+    width: 100%;
+    border:  2px solid orange;
+}
