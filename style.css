@@ -29,4 +29,5 @@
 }
 .chirantan{
     display: flex;
+    justify-content: center;
 }
