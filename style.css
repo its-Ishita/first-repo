@@ -15,7 +15,7 @@
     width: 20%;
     border: 2px solid white;
     background-color: rgb(28, 27, 27);
-    height: 50rem;
+    height: 45rem;
 }
 .main-container .container-nav .finance{
     font-size: 2.7rem;
@@ -73,6 +73,16 @@
   gap: 12px;
   align-items: center;
   padding: 20px;
+}
+.main-container .container-nav .minimize-menu{
+    color: white;
+    margin-top: 9.5rem;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+}
+.main-container .container-nav .minimize-menu .mini-icon{
+  font-size: 1.5rem;
 }
 
 
@@ -143,7 +153,7 @@
     border: 2px solid blue;
     display: flex;
     gap: 15px;
-    /* height: auto; */
+    height: auto;
 }
 
                                                          /* left pots part start  */
@@ -324,7 +334,16 @@
 .second-row-container .left-part .left-part-2 .transaction{
  display: flex;
  justify-content: space-between;
- /* padding: 10px ; */
-
 }
-                    
+.second-row-container .left-part .left-part-2 .transaction .trans-row-1{
+ display: flex;
+ justify-content: space-between;
+}
+.second-row-container .left-part .left-part-2 .transaction .information{
+  display: flex;
+
+} 
+.second-row-container .left-part .left-part-2 .transaction .picture img{
+ height: 10px;
+ border-radius: 50%;
+}                   
