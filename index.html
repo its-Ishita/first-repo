@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design-1</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
     <!-- google fonts added  -->
-     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
 
     <!-- icon setup  -->
-     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
-<body>
 
+<body>
     <section class="main-container">
         <div class="container-nav">
             <div class="finance">finance</div>
@@ -22,39 +25,51 @@
             <div class="nav-menu">
                 <ul>
                     <li class="overview">
-                        <div class="nav-icon-1"><ion-icon name="home-outline"></ion-icon></div>
+                        <div class="nav-icon-1">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </div>
                         <h4>Overview</h4>
                     </li>
-                    <li class="nav-transaction">
-                        <div class="nav-icon-2"><ion-icon name="swap-vertical-outline"></ion-icon></div>
+                    <li class="nav-item">
+                        <div class="nav-icon-2">
+                            <ion-icon name="swap-vertical-outline"></ion-icon>
+                        </div>
                         <h4>Transactions</h4>
-                    </li>    
-                    <li class="nav-budget">
-                        <div class="nav-icon-3"><ion-icon name="stats-chart-outline"></ion-icon></div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-icon-3">
+                            <ion-icon name="stats-chart-outline"></ion-icon>
+                        </div>
                         <h4>Budgets</h4>
                     </li>
-                    <li class="nav-pots">
-                        <div class="nav-icon-4"><ion-icon name="card-outline"></ion-icon></div>
+                    <li class="nav-item">
+                        <div class="nav-icon-4">
+                            <ion-icon name="card-outline"></ion-icon>
+                        </div>
                         <h4>Pots</h4>
                     </li>
-                    <li class="recurring-bill">
-                        <div class="nav-icon-5"><ion-icon name="newspaper-outline"></ion-icon></div>
+                    <li class="nav-item">
+                        <div class="nav-icon-5">
+                            <ion-icon name="newspaper-outline"></ion-icon>
+                        </div>
                         <h4>Recurring Bills</h4>
                     </li>
+
+                        <li class="mini-icon">
+                           <div class="nav-icon-5"><ion-icon name="play-back-outline"></ion-icon></div> 
+                            <h3>Minimize Menu</h3>
+                        </li>
+                 
                 </ul>
             </div>
-            <div class="minimize-menu">
-                    <div class="mini-icon"><ion-icon name="play-back-outline"></ion-icon></div>
-                    <h3>Minimize Menu</h3>
-             </div>
+
         </div>
         <!-- NAVBAR complete here  -->
-
 
         <div class="container-overview">
             <h1 class="headline">Overview</h1>
             <!-- 1st overview row started -->
-             <div class="first-row">
+            <div class="first-row">
                 <div class="current-balance">
                     <h5>Current Balance</h5>
                     <h1>$4,836.00</h1>
@@ -64,119 +79,180 @@
                     <h1>$3,814.25</h1>
                 </div>
                 <div class="expenses">
-                     <h5>Expenses</h5>
-                     <h1>$1,700.50</h1>
+                    <h5>Expenses</h5>
+                    <h1>$1,700.50</h1>
                 </div>
-             </div>
-             <!-- 1st Overview row complete  -->
+            </div>
+            <!-- 1st Overview row complete  -->
 
-             <!-- 2nd container started  -->
-             <div class="second-row-container">
+
+            <section class="second-row-container">
                 <div class="left-part">
-                  <div class="left-part-1">
-                    <div class="pots">
-                        <h2 class="pots-heading">Pots</h4>
-                        <p class="see-details">See Details</p>
-                    </div>
-                    <div class="pots-overview">
-                        <div class="pots-left">
-                            <div class="icon"><ion-icon name="card-outline"></ion-icon></div>
-                            <div class="text-pots">
-                                <p>Total Saved</p>
-                                <h1>1,301.00</h1>
+                    <div class="left-part-1">
+                        <div class="pots">
+                            <h2 class="pots-heading">Pots</h2>
+                            <p class="see-details">See Details</p>
+                        </div>
+                        <div class="pots-overview">
+                            <div class="pots-left">
+                                <div class="icon">
+                                    <ion-icon name="card-outline"></ion-icon>
+                                </div>
+                                <div class="text-pots">
+                                    <p>Total Saved</p>
+                                    <h1>1,301.00</h1>
+                                </div>
+                            </div>
+                            <div class="pots-right">
+                                <div class="upper">
+                                    <div class="box-1">
+                                        <div class="border-1"></div>
+                                        <div class="box-1-text">
+                                            savings
+                                            <h4>$500</h4>
+                                        </div>
+                                    </div>
+                                    <div class="box-2">
+                                        <div class="border-2"></div>
+                                        <div class="box-2-text">
+                                            concernt ticket
+                                            <h4>$500</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="lower">
+                                    <div class="box-3">
+                                        <div class="border-3"></div>
+                                        <div class="box-3-text">
+                                            Gift
+                                            <h4>$500</h4>
+                                        </div>
+                                    </div>
+                                    <div class="box-4">
+                                        <div class="border-4"></div>
+                                        <div class="box-3-text">
+                                            New Laptop
+                                            <h4>$500</h4>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="pots-right">
-                            <div class="upper">
-                                <div class="box-1">
-                                    <div class="border-1"></div>
-                                    <div class="box-1-text">
-                                        savings
-                                        <h4>$500</h4>
-                                    </div>
-                                </div>
-                                <div class="box-2">
-                                    <div class="border-2"></div>
-                                    <div class="box-2-text">
-                                        concernt ticket
-                                        <h4>$500</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="lower">
-                                <div class="box-3">
-                                      <div class="border-3"></div>
-                                    <div class="box-3-text">
-                                        Gift
-                                        <h4>$500</h4>
-                                    </div>
-                                </div>
-                                <div class="box-4">
-                                    <div class="border-4"></div>
-                                    <div class="box-3-text">
-                                        New Laptop
-                                        <h4>$500</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                   </div> 
-
-                   <!-- here transaction part started  -->
                     <div class="left-part-2">
                         <div class="transaction">
-                        <h2 class="transaction">Pots</h4>
-                        <p class="see-details">See Details</p>
-                      </div>
-
-                      <div class="trans-row-1">
-                        <div class="information">
-                            <div class="picture"><img src="gallery/girl.webp"> </div>
-                            <div class="name">Emma Richerson</div>
+                            <h2 class="transaction-head">Transactions</h2>
+                            <p class="see-details">See Details</p>
                         </div>
-                        <div class="date-rs">
-                            <div class="rs">$50.00</div>
-                            <div class="date">20 Aug 2024</div>
+                        <!-- row 1  -->
+                        <div class="trans-row-1">
+                            <div class="information">
+                                <div class="picture">
+                                    <img src="gallery/girl.webp" alt="girl" />
+                                </div>
+                                <div class="name">Emma Richerson</div>
+                            </div>
+                            <div class="date-rs">
+                                <div class="rs">$50.00</div>
+                                <div class="date">20 Aug 2024</div>
+                            </div>
                         </div>
-                      </div>
+                        <!-- row-2  -->
+                        <div class="trans-row-1">
+                            <div class="information">
+                                <div class="picture">
+                                    <img src="gallery/girl.webp" alt="girl" />
+                                </div>
+                                <div class="name">Emma Richerson</div>
+                            </div>
+                            <div class="date-rs">
+                                <div class="rs">$50.00</div>
+                                <div class="date">20 Aug 2024</div>
+                            </div>
+                        </div>
+                        <!-- row-3  -->
+                        <div class="trans-row-1">
+                            <div class="information">
+                                <div class="picture">
+                                    <img src="gallery/girl.webp" alt="girl" />
+                                </div>
+                                <div class="name">Emma Richerson</div>
+                            </div>
+                            <div class="date-rs">
+                                <div class="rs">$50.00</div>
+                                <div class="date">20 Aug 2024</div>
+                            </div>
+                        </div>
+                        <!-- row-4  -->
+                        <div class="trans-row-1">
+                            <div class="information">
+                                <div class="picture">
+                                    <img src="gallery/girl.webp" alt="girl" />
+                                </div>
+                                <div class="name">Emma Richerson</div>
+                            </div>
+                            <div class="date-rs">
+                                <div class="rs">$50.00</div>
+                                <div class="date">20 Aug 2024</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
                 <div class="right-part">
-                    <div class="budgets">
-                        <h2 class="budgets-heading">Budgets</h4>
-                        <p class="see-details">See Details</p>
-                    </div>
-                    <div class="graph-side">
-                        <div class="graph"></div>
-                        <div class="slidebar">
-                            <div class="slidebar-1">
+                    <div class="right-part-1">
+                        <div class="budgets">
+                            <h2 class="budgets-heading">Budgets</h2>
+                            <p class="see-details">See Details</p>
+                        </div>
+                        <div class="graph-side">
+                            <div class="graph"></div>
+                            <div class="slidebar">
+                                <div class="slidebar-1">
                                     <div class="border-5"></div>
                                     <div class="slidebar-text">
                                         savings
                                         <h4>$500</h4>
                                     </div>
-                            </div>
-                            <div class="slidebar-1">
+                                </div>
+                                <div class="slidebar-1">
                                     <div class="border-6"></div>
                                     <div class="slidebar-text">
                                         savings
                                         <h4>$500</h4>
                                     </div>
-                            </div>
-                            <div class="slidebar-1">
+                                </div>
+                                <div class="slidebar-1">
                                     <div class="border-7"></div>
                                     <div class="slidebar-text">
                                         savings
                                         <h4>$500</h4>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="right-part-2">
+                        <div class="budgets">
+                            <h2 class="budgets-heading">Recurring Bills</h2>
+                            <p class="see-details">See Details</p>
+                        </div>
+                        <div class="bills-1">
+                            <div class="bill-text">Paid Bills</div>
+                            <div class="amount">$190.00</div>
+                        </div>
+                        <div class="bills-2">
+                            <div class="bill-text">Total Upcomming</div>
+                            <div class="amount">$194.98</div>
+                        </div>
+                        <div class="bills-3">
+                            <div class="bill-text">Due Son</div>
+                            <div class="amount">$59.98</div>
+                        </div>
+                    </div>
                 </div>
-             </div>
+            </section>
         </div>
     </section>
 </body>
+
 </html>
