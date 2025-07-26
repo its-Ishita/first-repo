@@ -7,7 +7,6 @@ section.main-container {
   width: 100%;
   /* border: 2px solid red; */
   display: flex;
-  gap: 2.5rem;
 }
 
 /* NAVBAR start here  */
@@ -41,6 +40,7 @@ section.main-container {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px ;
   display: flex;
+  
   gap: 12px;
   align-items: center;
   color: black;
@@ -61,8 +61,10 @@ section.main-container {
 }
 .main-container .container-nav .mini-icon{
   color: white;
-  margin-top: 9.5rem;
+  margin-top: 15rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 12px;
   padding: 20px;
 }
@@ -72,6 +74,7 @@ section.main-container {
   width: 80%;
   /* border: 2px solid green; */
    background-color: rgb(243, 231, 215);
+   padding-left: 60px;
 }
 .main-container .headline {
   font-weight: 900;
@@ -86,8 +89,10 @@ section.main-container {
   width: 100%;
   /* border:  2px solid orange; */
   display: flex;
-  gap: 20px;
-  padding: 10px;
+   gap: 18px;
+  /* justify-content: space-between; */
+  /* padding: 10px; */
+  margin-bottom: 18px;
 }
 .first-row h1 {
   font-weight: 900;
@@ -137,7 +142,7 @@ section.second-row-container {
   /* border: 2px solid blue; */
    background-color: rgb(243, 231, 215);
   display: flex;
-  gap: 15px;
+  gap: 2rem;
   height: auto;
 }
 
@@ -155,14 +160,16 @@ section.second-row-container {
      background-color: whitesmoke;
     border-radius: 16px;
     height: 40%;
+     box-shadow: 2px 2px 2px rgb(179, 172, 172);
 
 }
-.second-row-container .left-part-1 .pots {
+.second-row-container .left-part-1 .pots{
   width: 100%;
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  /* padding: 10px; */
+  padding: 15px;
 }
 .main-container .container-overview .second-row-container .left-part .pots .pots-heading {
   font-family: "IBM Plex Sans", sans-serif;
@@ -173,8 +180,7 @@ section.second-row-container {
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview {
   display: flex;
-  gap: 5px;
-  margin: 10px;
+  padding: 0px 16px 16px 16px;
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview .pots-left {
   width: 50%;
@@ -271,14 +277,15 @@ section.second-row-container .right-part-1 {
   /* border: rgb(215, 26, 26) solid 2px ; */
   background-color: whitesmoke ;
   box-shadow: 2px 2px 2px 2px rgb(161, 154, 154);
-   border-radius: 16px;
+  border-radius: 16px;
+  margin-bottom: 16px;
 }
 .main-container .container-overview .second-row-container .right-part .budgets {
   width: 100%;
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 6px;
+  padding:15px;
 }
 .main-container .container-overview .second-row-container-part .budgets .budgets-heading {
   font-family: "IBM Plex Sans", sans-serif;
@@ -289,28 +296,31 @@ section.second-row-container .right-part-1 {
 }
 .main-container .container-overview .second-row-container .right-part .graph-side {
   display: flex;
-  gap: 4px;
+  justify-content: space-between;
+  padding: 0px 15px 15px 15px;
+  gap: 16px; 
   width: 100%;
   /* border-radius: 16px; */
 }
 .main-container .container-overview .second-row-container .right-part .graph {
-  width: 60%;
+  width: 70%;
   height: 210px;
   border: 2px solid black;
   border-radius: 10px;
-  margin: 10px;
 }
 .main-container .container-overview .second-row-container .right-part .slidebar {
-  width: 40%;
+  width: 30%;
   /* border: 2px solid ; */
   border-radius: 10px;
 }
 .right-part .slidebar .slidebar-1 {
   /* border: 2px solid red; */
-  box-shadow: 2px 2px 2px grey;
+  /* box-shadow: 2px 2px 2px grey; */
   display: flex;
   gap: 16px;
   padding: 15px;
+  border-radius: 10px;
+
 }
 .right-part .slidebar .slidebar-1 .border-5 {
   border: 3px solid rgb(16, 211, 236);
@@ -340,7 +350,7 @@ section.second-row-container .right-part-1 {
 .second-row-container .left-part .left-part-2 .transaction {
   display: flex;
   justify-content: space-between;
-  padding: 8px;
+    padding: 15px;
 }
 .second-row-container .left-part .left-part-2 .trans-row-1 {
   /* border: 2px solid olivedrab; */
@@ -397,7 +407,7 @@ section.second-row-container .right-part .right-part-2 .bills-1{
     margin: 16px;
     border-left: 4px solid rgb(9, 139, 139);
     background-color: rgb(243, 229, 210);
-    box-shadow: 2px 2px 2px rgb(231, 208, 177);
+    /* box-shadow: 2px 2px 2px rgb(231, 208, 177); */
 }
 section.second-row-container .right-part .right-part-2 .bills-2{
     display: flex;
@@ -408,7 +418,6 @@ section.second-row-container .right-part .right-part-2 .bills-2{
     margin: 16px;
     border-left: 4px solid rgb(224, 155, 26);
     background-color: rgb(243, 229, 210);
-    box-shadow: 2px 2px 2px rgb(231, 208, 177);
 }
 section.second-row-container .right-part .right-part-2 .bills-3{
     display: flex;
@@ -419,7 +428,6 @@ section.second-row-container .right-part .right-part-2 .bills-3{
     margin: 16px;
     border-left: 4px solid rgb(13, 167, 194);
     background-color: rgb(243, 229, 210);
-    box-shadow: 2px 2px 2px rgb(231, 208, 177);
 }
 section.second-row-container .right-part .right-part-2 .bill-text{
   font-size: 16px;
@@ -428,4 +436,5 @@ section.second-row-container .right-part .right-part-2 .bill-text{
 }
 section.second-row-container .right-part .right-part-2 .bill-text .amount{
     font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
 }

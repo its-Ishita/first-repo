@@ -1,0 +1,134 @@
+@media (max-width: 1440px) {
+  .main-container {
+    position: relative;
+  }
+  .main-container .container-nav {
+    position: fixed;
+    /* background-color: blueviolet !important; */
+    /* top: 30rem; */
+    width: 100%;
+    height: 10rem;
+    bottom: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 0px;
+  }
+  .main-container .container-overview {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .main-container .container-nav .nav-menu .overview {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* padding: 0; */
+    width: 20%;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+  }
+  .main-container .container-nav .nav-menu .nav-item {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main-container .container-nav .nav-menu .nav-menu-parent {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-container .container-nav .nav-menu {
+    margin-top: 0;
+  }
+  .main-container .container-nav .mini-icon {
+    display: none;
+  }
+  .main-container .container-nav .finance {
+    display: none;
+  }
+
+
+  /* container overview part  */
+  .main-container .container-overview {
+    background-color: rgb(243, 231, 215);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+   section.second-row-container {
+     flex-direction: column;
+     flex-wrap: wrap;
+  }
+  .second-row-container .left-part {
+    width: 100%;
+  }
+  section.second-row-container .right-part{
+    width: 100%;
+  }
+
+}
+/* COMPLETE 1440 PX    */
+
+
+@media (max-width: 768px){
+    .main-container .container-nav {
+        height: 5rem;
+    }
+    .main-container .container-overview {
+            margin-bottom: 5rem;
+    }
+    .main-container .container-nav .nav-menu .nav-item h4{
+        display: none;
+    }
+    .main-container .container-nav .nav-menu .overview .nav-icon-1{
+          font-size: 1.7rem;
+   }
+   .main-container .container-nav .nav-menu .nav-item{
+        font-size: 1.7rem;
+   }
+    .main-container .container-nav .nav-menu .overview h4{
+        display: none;
+    }
+    .main-container .container-overview .first-row {
+        flex-direction: column;
+    }
+    .main-container .container-overview .first-row .current-balance {
+        width: 100%;
+    }
+    .main-container .container-overview .first-row .income {
+        width: 100%;
+    }
+    .main-container .container-overview .first-row .expenses {
+        width: 100%;
+    }
+    .second-row-container .left-part-1 .pots-overview {
+        flex-direction: column;
+    }
+    .main-container .container-overview .second-row-container .left-part .pots-overview .pots-left {
+        width: 100%;
+    }
+    .main-container .container-overview .second-row-container .left-part .pots-overview .pots-right {
+        width: 100%;
+    }
+    .main-container .container-overview .second-row-container .right-part .graph-side {
+        flex-direction: column;
+    }
+    .main-container .container-overview .second-row-container .right-part .graph {
+        width: 96%;
+    }
+    .main-container .container-overview .second-row-container .right-part .slidebar {
+        width: 98%;
+    }
+}
+/* COMPLETE 768 PX    */
+
+
+@media(max-width:390px){
+
+    .pots-left h1{
+        font-size: 2rem;
+    }
+    .main-container .container-nav .nav-menu .nav-item {
+}
+}
