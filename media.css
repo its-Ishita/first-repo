@@ -56,6 +56,9 @@
     padding-right: 15px;
     width: 100%;
   }
+  .main-container .container-overview .first-row { 
+      justify-content: space-between;
+  }
    section.second-row-container {
      flex-direction: column;
      flex-wrap: wrap;

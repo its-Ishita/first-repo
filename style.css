@@ -180,18 +180,19 @@ section.second-row-container {
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview {
   display: flex;
+
   padding: 0px 16px 16px 16px;
 }
 .main-container .container-overview .second-row-container .left-part .pots-overview .pots-left {
   width: 50%;
   /* border: 2px solid green; */
   background-color: blanchedalmond;
-  border-radius: 5px;
+  border-radius: 25px;
   display: flex;
   justify-content: space-evenly;
-  gap: 1.5rem;
-  padding: 26px;
-  box-shadow: 2px 2px 2px rgb(161, 154, 154);
+  gap: 1rem;
+  padding: 28px;
+
 }
 .pots-left .icon {
   font-size: 4rem;
@@ -203,7 +204,6 @@ section.second-row-container {
   width: 50%;
   /* border: 2px solid green; */
   border-radius: 6px;
-  box-shadow: 2px 2px 2px 2px rgb(161, 154, 154);
 }
 .left-part .pots-overview .pots-right .upper {
   padding: 15px;
@@ -276,7 +276,6 @@ section.second-row-container .right-part-1 {
   width: 100%;
   /* border: rgb(215, 26, 26) solid 2px ; */
   background-color: whitesmoke ;
-  box-shadow: 2px 2px 2px 2px rgb(161, 154, 154);
   border-radius: 16px;
   margin-bottom: 16px;
 }
@@ -345,7 +344,6 @@ section.second-row-container .right-part-1 {
   background-color: whitesmoke;
   border-radius: 18px;
   height: 60%;
-  box-shadow: 2px 2px 2px 2px rgb(161, 154, 154);
 }
 .second-row-container .left-part .left-part-2 .transaction {
   display: flex;
@@ -394,7 +392,6 @@ section.second-row-container .right-part .right-part-2{
     /* border: 2px solid ; */
     border-radius: 16px;
     height: auto;
-    box-shadow: 2px 2px 2px 2px rgb(161, 154, 154);
     background-color: whitesmoke;
     width: 100%;
 }
